@@ -8,10 +8,10 @@ typedef struct {
     int size;
 } List;
 
-List *makeListPD();
+List *makeList();
 void free(List*);
 void addTop(List*, void*);
-void add(List*, void);
+void add(List*, void*);
 void remove(List*, void*);
 void *getFirst(List*);
 void *getLast(List*);

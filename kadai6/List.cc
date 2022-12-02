@@ -13,7 +13,7 @@ void free(List*l) {
 
 void addTop(List *l, void *d) {
     ListNode *n=makeListNode(d);
-    if(l->first=NULL){
+    if(l->first==NULL){
         l->first=l->last=n;
     } else {
         insertBefore(l->first, n);

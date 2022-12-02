@@ -36,11 +36,8 @@ int main(void) {
     remove(list, pd2);
 
     printf("*** After ***\n");
-    printf(list);
-
-    PD *pd=(PD*)get(list, 2);
     print(list);
 
     PD *pd=(PD*)get(list, 2);
-    printf("3番目は"); printf(pd);
+    printf("3番目は"); print(pd);
 }
