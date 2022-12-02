@@ -4,7 +4,7 @@ PD *makePD(const char *n, int a) {
     return makePD((char*)n, a);
 }
 
-PD *makePD(const char *n, int a) {
+PD *makePD(char *n, int a) {
     PD *pd = (PD*)malloc(sizeof(PD));
     int l = strlen(n);
     pd->name = (char*)malloc(l + 1);
