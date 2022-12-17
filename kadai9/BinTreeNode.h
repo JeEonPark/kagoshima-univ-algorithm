@@ -1,5 +1,5 @@
 #ifndef __BinTreeNode__h
-#define __BinTreeNode_h
+#define __BinTreeNode__h
 
 #include <stdio.h>
 #include <stdlib.h>

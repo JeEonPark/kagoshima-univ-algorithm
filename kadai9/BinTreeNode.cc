@@ -1,4 +1,4 @@
-#include "BintreeNode.h"
+#include "BinTreeNode.h"
 
 BinTreeNode *makeBinTreeNode(void *d) {
     BinTreeNode *n=(BinTreeNode*)malloc(sizeof(BinTreeNode));
